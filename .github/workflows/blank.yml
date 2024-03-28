@@ -64,5 +64,10 @@ list=[123,256,0.1,789]
 print(list.index(123))
 
 
+list=[123,256,0.1,789]
+list.sort(reverse=True)
+print(list)
+
+
 
 
