@@ -1,0 +1,68 @@
+for accesing contents in a list
+code:
+list=[123,"abc",0.1,789]
+print (list[0])
+print(list[-2])
+print(list[0:4])
+
+for changing items in a list 
+code:
+list=[123,"abc",0.1,789]
+list[0:3]=["qwerty","dog","cat","crow"]
+print(list)
+
+for adding items in a list
+code:
+list=[123,"abc",0.1,789]
+list1=["dog","cat"]
+list.append("hello")
+list.insert(0,"apple")
+list.extend(list1)
+print(list)
+
+for removing items in a list
+code:
+list=[123,"abc",0.1,789]
+list.remove("abc")
+list.pop(0)
+del list[1]
+print(list)
+
+for joinig two list
+code:
+list=[123,"abc",0.1,789]
+list1=["dog","cat",7479]
+list2=list+list1
+list.extend(list1)
+print(list)
+
+for list functions
+code:
+list=[123,256,0.1,789]
+list.sort()
+print(list)
+
+list=[123,256,0.1,789]
+list.reverse()
+print(list)
+
+list=[123,256,0.1,789]
+list.reverse()
+print(list)
+
+
+list=[123,256,0.1,789]
+list1=[12313,2344,411]
+list2=list1.copy()
+print(list2)
+
+
+list=[123,256,0.1,789]
+print(list.count(123))
+
+list=[123,256,0.1,789]
+print(list.index(123))
+
+
+
+
